@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Child: >
+        nav>ul>li
+    -->
+     <nav>
+         <ul>
+             <li></li>
+         </ul>
+     </nav>
+    
+
+    <!--Sibling: + 
+        div+p+bq
+        h1+h2+h3+h4
+    -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+ 
+    
+    <!--Climb-up: ^
+        div+div>p>span+em^bq
+
+        div+div>p>span+em^^bq
+    -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>  
+
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+
+
+    <!--Multiplication: *
+        ul>li*3
+    -->    
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+
+    <!-- Text: {}
+        p>{Click }+a{here}+{ to continue}
+        a{click me}
+    -->
+    <p>Click <a href="https://github.com/ratessS10">Here</a> to continue</p>
+    <a href="https://github.com/ratessS10">Hey</a>
+
+    <!--Tag names
+    .class
+    ul>.class
+    -->
+    <div class="class"></div>
+
+    <ul>
+        <li class="class"></li>
+    </ul>
+
+
+    <!--Item Numbering: $
+        ul>li.item$*2
+    -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+    </ul>
+
+
+    <!--
+        nav>ul>li*3>a[href=www.$.com]{Click here}
+    -->
+    <nav>
+        <ul>
+            <li><a href="www.1.com">Click here</a></li>
+            <li><a href="www.2.com">Click here</a></li>
+            <li><a href="www.3.com">Click here</a></li>
+        </ul>
+    </nav>
+
+
+</html>
